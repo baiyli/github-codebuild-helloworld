@@ -57,6 +57,6 @@ jobs:
   #         role-session-name: samplerolesession
   #         aws-region: ${{ env.AWS_REGION }}
   #     - name: Run CodeBuild
-        uses: aws-actions/aws-codebuild-run-build@v1
-        with:
-          project-name: github-codebuild-helloworld-project
+        # uses: aws-actions/aws-codebuild-run-build@v1
+        # with:
+        #   project-name: github-codebuild-helloworld-project
